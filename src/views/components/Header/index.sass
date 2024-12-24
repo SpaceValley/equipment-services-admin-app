@@ -1,0 +1,163 @@
+.header-container
+  width: 100%
+  display: flex
+  flex-direction: column!important
+  position: sticky
+  top: 0
+
+.header
+  width: 100%
+  background-color: #F5F5F5
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.header-content
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  width: 100%
+  padding: 1rem
+  @media (min-width: 768px)
+    justify-content: space-between
+  @media (min-width: 1200px)
+    padding: 1.5rem
+    max-width: 1200px
+  @media (min-width: 1536px)
+    max-width: 1536px
+
+
+.overlay
+  background: black
+  opacity: .4
+  z-index: 5
+  height: 100%
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+.logoMenuWrap
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: relative
+  z-index: 10
+  justify-content: center
+  padding-top: 0.5rem
+  @media (min-width: 768px)
+    flex-direction: row
+    justify-content: space-between
+
+#logoWrap
+  margin-left: 1rem
+  height: 2rem
+  @media (min-width: 600px)
+    position: relative
+    height: 2.5rem
+  @media (min-width: 900px)
+    height: 3rem
+  @media (min-width: 1200px)
+    height: 3.5rem
+
+.logo
+  height: 100%
+
+.menuItem
+  margin: 1.5rem 0
+  background: none
+  border: 0
+  outline: none
+  text-decoration: none
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  @media (min-width: 768px)
+    margin: 0 1rem
+
+.menuItemLabel
+  color: white
+  margin: 0
+  cursor: pointer
+  text-align: center
+  text-transform: uppercase
+  font-size: 1.5rem
+  @media (min-width: 768px)
+    font-size: 1rem
+
+.headerTitle
+  color: white
+  font-size: 3rem
+  z-index: 150
+  position: absolute
+  text-transform: capitalize
+  @media (min-width: 768px)
+    font-size: 5rem
+
+.menuItemsWrap
+  display: none
+  @media (min-width: 768px)
+    display: flex
+    align-items: center
+    height: 100%
+
+.drawerMenuItemsWrap
+  display: flex
+  flex-direction: column
+  margin: 1rem 0 2rem
+
+#menuIcon
+  color: black
+  width: 2rem
+  height: 2rem
+  cursor: pointer
+  position: relative
+  top: 1rem
+  left: 1rem
+  @media (min-width: 600px)
+    top: 1.5rem
+    left: 1.5rem
+  @media (min-width: 768px)
+    display: none
+
+#closeIcon
+  color: black
+  width: 2.5rem
+  height: 2.5rem
+  margin: 0 0.5rem
+  cursor: pointer
+
+.menuOpened
+  display: flex
+  background: black
+  height: 100vh
+  width: 100%
+  position: fixed
+  right: 0
+  top: 0
+  flex-direction: column
+  padding-top: 4rem
+
+.flagsWrap
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  margin-left: 1rem
+  @media (min-width: 1200px)
+    margin-left: 2rem
+
+.flag
+  height: 1rem
+  margin: 5px 0
+  cursor: pointer
+
+.drawerContent
+  padding: 1rem
+  padding-right: 2rem
+
+.closeIconFlagsWrap
+  display: flex
+  justify-content: space-between

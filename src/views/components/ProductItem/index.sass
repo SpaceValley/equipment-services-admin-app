@@ -1,0 +1,198 @@
+.carousel
+  width: 100%
+  height: 18rem
+  @media (min-width: 600px)
+    width: 25rem
+  @media (min-width: 768px)
+    width: 20rem
+    height: 13rem
+  @media (min-width: 900px)
+    width: 22rem
+    height: 15rem
+  @media (min-width: 1536px)
+    width: 25rem
+    height: 18rem
+
+.carouselScaled
+  @media (min-width: 600px)
+    width: 100%
+    height: 21rem
+  @media (min-width: 768px)
+    width: 29rem
+    height: 21rem
+  @media (min-width: 900px)
+    width: 32rem
+    height: 21rem
+  @media (min-width: 1536px)
+    width: 35rem
+    height: 24rem
+
+.imageWrap
+  height: 18rem
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  position: relative
+  @media (min-width: 768px)
+    height: 13rem
+  @media (min-width: 900px)
+    height: 15rem
+  @media (min-width: 1536px)
+    height: 18rem
+
+.imageWrapScaled
+  @media (min-width: 600px)
+    height: 21rem
+  @media (min-width: 1536px)
+    height: 24rem
+
+.image
+  height: 100%
+  width: auto
+
+.noImageWrap
+  background: rgba(25, 118, 210, 0.08)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 100%
+  height: 18rem
+  @media (min-width: 600px)
+    width: 25rem
+  @media (min-width: 768px)
+    width: 20rem
+    height: 13rem
+  @media (min-width: 900px)
+    width: 22rem
+    height: 15rem
+  @media (min-width: 1536px)
+    width: 25rem
+    height: 18rem
+
+.noImageWrapScaled
+  width: 100%
+  height: 18rem
+  @media (min-width: 768px)
+    width: 29rem
+    height: 21rem
+  @media (min-width: 900px)
+    width: 32rem
+  @media (min-width: 1536px)
+    width: 35rem
+    height: 24rem
+
+.modalCarousel
+  width: 100vw
+  height: 40vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  @media (min-width: 600px)
+    width: 80vw
+    height: 90vh
+
+.modalImageWrap
+  border: none!important
+  outline: none!important
+  height: 33vh
+  @media (min-width: 600px)
+    width: 80vw
+    height: 90vh
+
+.modalImage
+  width: auto
+  height: 100%
+  @media (min-width: 900px)
+    width: auto
+    height: 100%
+
+.react-transform-wrapper 
+  width: 100% !important
+  height: 100% !important
+
+.react-transform-element 
+  width: 100% !important
+  height: 100% !important
+
+.react-transform-component 
+  width: 100% !important
+  height: 100% !important
+  justify-content: center
+  align-items: center
+
+#productDetailsWrap
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: flex-start
+  height: 13rem
+  cursor: pointer
+  @media (min-width: 768px)
+    height: 13rem
+  @media (min-width: 900px)
+    height: 15rem
+  @media (min-width: 1536px)
+    height: 18rem
+
+#productDetailsRouteWrap
+  height: auto
+
+.productDescription
+  white-space: break-spaces
+
+.productNameHidden
+  overflow: hidden
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+
+.productDescriptionHidden
+  overflow: hidden
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  @media (min-width: 900px)
+    -webkit-line-clamp: 4
+
+.carouselIndicatorsWrap
+  position: absolute
+  z-index: 1
+  bottom: 0
+  margin-top: 0!important
+
+.carouselIndicator
+  border: 1px solid transparent!important
+
+.carouselNavButtonsWrapper
+  top: calc(50% - 50px)!important
+
+.carouselActiveIndicator
+  color: white!important
+  border: 1px solid #e4e4e4!important
+
+.carouselNavButton
+  background: rgba(75, 75, 75, 0.08)!important
+
+.hideCarouselNavButton
+  background: none!important
+
+.video
+  height: 94%
+  width: 100%
+  position: absolute
+  top: 0
+
+.closeGalleryIconWrap
+  position: absolute
+  top: 0
+  right: 0
+  padding: 1rem
+  cursor: pointer
+  z-index: 10
+
+#closeGalleryIcon
+  color: white
+  font-size: 2rem
